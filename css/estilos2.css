@@ -1,0 +1,56 @@
+*
+{
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body 
+{
+    
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, rgb(255, 0, 217), #4a0171);
+    color: white;
+}
+/* Contenedor del título e imágenes */
+.titulo-contenedor 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.osito {
+    width: 200px;
+    height: auto;
+}
+h1 
+{
+    text-align: center;
+    font-size: 50px;
+}
+.poema-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poema-table {
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.poema-table td {
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+
+.poema-table tr:not(:last-child) td {
+    border-bottom: 1px solid #ff69b4;
+}

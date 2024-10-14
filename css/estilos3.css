@@ -1,0 +1,60 @@
+*
+{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body 
+{
+    
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, rgb(255, 0, 217), #4a0171);
+    color: white;
+}
+h1 
+{
+    text-align: center;
+    font-size: 50px;
+}
+.recuadro1 {
+    text-align: center; /* Centra el contenido dentro del div */
+    padding: 20px;
+}
+
+.recuadro1 img {
+    max-width: 100%; /* Asegura que la imagen no desborde */
+    height: auto;
+}
+h2
+{
+    text-align: center;
+}
+/* Estilos para los botones */
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn 
+{
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: #ff69b4; /* Color rosa */
+    border: 2px solid #ff69b4;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 10px;
+}
+
+.btn:hover 
+{
+    background-color: white;
+    color: #ff69b4;
+}
